@@ -6,7 +6,7 @@ An easy npm cheat sheet to makes developer life easier.
 ### To check node version:
 
 ```bash
-$ node -v
+> node -v
 ```
 
 ![node-v](./images/node-v.png)
@@ -14,7 +14,7 @@ $ node -v
 ### To check npm version:
 
 ```bash
-$ npm -v
+> npm -v
 ```
 
 ![npm-v](./images/npm-v.png)
@@ -24,7 +24,7 @@ $ npm -v
 **Package.json** file contains meta data about our application. All node applications by standard have at least one package.json file.
 
 ```bash
-$ npm init -y
+> npm init -y
 ```
 
 ![npm-init-y](./images/npm-init-y.png)
@@ -32,8 +32,8 @@ $ npm init -y
 ### To install a package locally such as underscore:
 
 ```bash
-$ npm i <package-name>
-$ npm i underscore
+> npm i <package-name>
+> npm i underscore
 ```
 
 ![npm-i](./images/npm-i.png)
