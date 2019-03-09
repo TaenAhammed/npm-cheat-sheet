@@ -24,3 +24,5 @@ An easy npm cheat sheet to makes developer life easier.
 ```bash
 > npm init -y
 ```
+
+![npm-init-y](./images/npm-init-y.png)

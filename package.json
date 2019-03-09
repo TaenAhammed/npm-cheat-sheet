@@ -1,0 +1,20 @@
+{
+  "name": "npm-cheat-sheet",
+  "version": "1.0.0",
+  "description": "An easy npm cheat sheet to makes developer life easier.\r **NPM:** Npm is a command line tool for installing third-party node packages as well as the world’s largest software registry. Open-source developers use **npm** to share software.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaenAhammed/npm-cheat-sheet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaenAhammed/npm-cheat-sheet/issues"
+  },
+  "homepage": "https://github.com/TaenAhammed/npm-cheat-sheet#readme"
+}
