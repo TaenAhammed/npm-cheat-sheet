@@ -37,3 +37,4 @@ An easy npm cheat sheet to makes developer life easier.
 ```
 
 ![npm-i](./images/npm-i.png)
+![npm-i-2](./images/npm-i-2.png)
