@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TaenAhammed/npm-cheat-sheet/issues"
   },
-  "homepage": "https://github.com/TaenAhammed/npm-cheat-sheet#readme"
+  "homepage": "https://github.com/TaenAhammed/npm-cheat-sheet#readme",
+  "dependencies": {
+    "underscore": "^1.9.1"
+  }
 }
