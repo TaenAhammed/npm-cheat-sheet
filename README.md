@@ -9,18 +9,18 @@ An easy npm cheat sheet to makes developer life easier.
 > node -v
 ```
 
+![node-v](./images/node-v.png)
+
 ### To check npm version:
 
 ```bash
 > npm -v
 ```
 
-![node-v](./images/node-v.png)
+![npm-v](./images/npm-v.png)
 
 ### To initialize default package.json without answering any question:
 
 ```bash
 > npm init -y
 ```
-
-![npm-v](./images/npm-v.png)
