@@ -128,3 +128,17 @@ An easy npm cheat sheet to makes developer life easier.
 ```
 
 ## Publishing packages on npm registry:
+
+To publishing any package on npm registry you should create an account or login into your existing account on npmjs.com. To do this ->
+
+### Creating account:
+
+```bash
+> npm adduser
+```
+
+### Login:
+
+```bash
+> npm login
+```
