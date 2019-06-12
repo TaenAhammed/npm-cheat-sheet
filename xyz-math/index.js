@@ -10,3 +10,6 @@ module.exports.mul = function(a, b) {
 module.exports.div = function(a, b) {
     return a / b;
 };
+module.exports.mod = function(a, b) {
+    return a % b;
+};

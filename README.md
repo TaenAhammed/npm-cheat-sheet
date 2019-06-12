@@ -142,3 +142,17 @@ To publishing any package on npm registry you should create an account or login 
 ```bash
 > npm login
 ```
+
+### Publishing package:
+
+```bash
+> npm publish
+```
+
+### Updating published package:
+
+```bash
+> FORMAT: npm version <major/minor/patch>
+> EX: npm version minor
+> npm publish
+```
