@@ -30,7 +30,7 @@ An easy npm cheat sheet to makes developer life easier.
 > npm init
 ```
 
-### Installing package locally such as underscore:
+### Installing packages locally such as underscore:
 
 ```bash
 > FORMAT: npm i <package-name>
@@ -44,6 +44,13 @@ An easy npm cheat sheet to makes developer life easier.
 > EX: npm i mongoose@4.4.4
 ```
 
+### Installing packages as dev dependency:
+
+```bash
+> FORMAT: npm i -D <package-name>
+> EX: npm i -D jshint
+```
+
 ### Installing packages globally:
 
 ```bash
@@ -53,15 +60,15 @@ An easy npm cheat sheet to makes developer life easier.
 ### List of all the dependencies and the dependencies of dependencies and their exact version:
 
 ```bash
-> npm list          //for local packages
-> npm list -g       //for global packages
+> npm list          # for local packages
+> npm list -g       # for global packages
 ```
 
 ### Dependencies of only my application (not 3rd party packages):
 
 ```bash
-> npm list --depth=0        //for local packages
-> npm list -g --depth=0     //for global packages
+> npm list --depth=0        # for local packages
+> npm list -g --depth=0     # for global packages
 ```
 
 ### Metadata about a package:
@@ -98,8 +105,26 @@ An easy npm cheat sheet to makes developer life easier.
 > npm outdated
 ```
 
+```bash
+> ncu       # you have to install npm-check-updates
+```
+
 ### Updating packages:
 
 ```bash
 > npm update
 ```
+
+```bash
+> ncu -u    # you have to install npm-check-updates
+> npm i
+```
+
+### Uninstalling packages:
+
+```bash
+> FORMAT: npm un <package-name>
+> EX: npm i mongoose
+```
+
+## Publishing packages on npm registry:
