@@ -30,18 +30,28 @@ An easy npm cheat sheet to makes developer life easier.
 > npm init
 ```
 
-### Installing packages locally such as underscore:
+### Installing packages locally:
 
 ```bash
 > FORMAT: npm i <package-name>
 > EX: npm i underscore
 ```
 
+### Installing packages globally:
+
+```bash
+> FORMAT: npm i -g <package-name>
+> EX: npm i -g npm-check-updates
+```
+
 ### Installing specific version of a package:
 
 ```bash
-> FORMAT: npm i <package-name>@version
+> FORMAT: npm i <package-name>@version          # for local packages
 > EX: npm i mongoose@4.4.4
+
+> FORMAT: npm i -g <package-name>@version       # for global packages
+> EX: npm i -g npm-check-updates@3.1.1
 ```
 
 ### Installing packages as dev dependency:
@@ -51,80 +61,92 @@ An easy npm cheat sheet to makes developer life easier.
 > EX: npm i -D jshint
 ```
 
-### Installing packages globally:
+### List of all the dependencies, devDependencies and the dependencies of dependencies, dependencies of devDependencies and their exact version:
 
 ```bash
-> npm i -g npm-check-updates
-```
-
-### List of all the dependencies and the dependencies of dependencies and their exact version:
-
-```bash
-> npm list          # for local packages
+> npm list          # for my application
 > npm list -g       # for global packages
 ```
 
-### Dependencies of only my application (not 3rd party packages):
+### List of Dependencies and DevDependencies of only my application and their version:
 
 ```bash
-> npm list --depth=0        # for local packages
-> npm list -g --depth=0     # for global packages
+> npm list --depth=0
+```
+
+### List of globally installed packages and their version:
+
+```bash
+> npm list -g --depth=0
 ```
 
 ### Metadata about a package:
 
 ```bash
-> FORMAT: npm view <package-name>
+> FORMAT: npm view <package-name>       # for local package
 > EX: npm view mongoose
+> FORMAT: npm view -g <package-name>    # for global package
+> EX: npm view -g npm-check-updates
 ```
 
 ### Specific metadata about a package:
 
 ```bash
-> FORMAT: npm view <package-name> <property-name>
+> FORMAT: npm view <package-name> <property-name>   # for local package
 > EX: npm view mongoose dependencies
+
+> FORMAT: npm view -g <package-name> <property-name>   # for global package
+> EX: npm view -g npm-check-updates dependencies
 ```
 
 ```bash
 > EX: npm view mongoose devDependencies
+> EX: npm view -g npm-check-updates devDependencies
 ```
 
 ```bash
 > EX: npm view mongoose version
+> EX: npm view -g npm-check-updates version
 ```
 
 ```bash
 > EX: npm view mongoose versions
+> EX: npm view -g npm-check-updates versions
 ```
 
-## Updating local packages:
+## Updating packages:
 
 ### Outdated packages:
 
 ```bash
-> npm outdated
+> npm outdated      # locally outdated packages
+> npm outdated -g   # globally outdated packages
 ```
 
 ```bash
-> ncu       # you have to install npm-check-updates
+> ncu       # you have to install npm-check-updates cli
 ```
 
 ### Updating packages:
 
 ```bash
-> npm update
+> npm update        # for my application
+> npm update -g     # for global packages
+> npm i             # to install updated packages
 ```
 
 ```bash
 > ncu -u    # you have to install npm-check-updates
-> npm i
 ```
 
 ### Uninstalling packages:
 
 ```bash
-> FORMAT: npm un <package-name>
+> FORMAT: npm un <package-name>     # for local package
 > EX: npm i mongoose
+
+> FORMAT: npm un -g <package-name> # for global package
+> EX: npm un -g npm-check-updates
 ```
 
 ## Publishing packages on npm registry:
