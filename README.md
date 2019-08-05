@@ -143,7 +143,7 @@ An easy npm cheat sheet to makes developer life easier.
 
 ```bash
 > FORMAT: npm un <package-name>     # for local package
-> EX: npm i mongoose
+> EX: npm un mongoose
 
 > FORMAT: npm un -g <package-name> # for global package
 > EX: npm un -g npm-check-updates
