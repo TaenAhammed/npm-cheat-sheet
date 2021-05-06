@@ -19,7 +19,7 @@
   "homepage": "https://github.com/TaenAhammed/npm-cheat-sheet#readme",
   "dependencies": {
     "mongoose": "^4.13.18",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {
     "jshint": "^2.10.2"
